@@ -21,15 +21,5 @@ type ConteudoImpressao struct {
 	Reasons           string     `json:"Reasons"`
 }
 
-//construtor da estrutura DadosJson
-func (s DadosJson) Data(fdqn string, price float32, reasons string) bool{
-	return true
-}
-
-
-//construtor da estrutura ConteudoImpressao
-func (s ConteudoImpressao) Data(available string, price float32, reasons string) bool{
-	return true
-}
 
 
